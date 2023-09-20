@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 16px;
+
+   
+    margin: 1%;
+
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.logo {
+    font-family: "Roboto-Bold";
+    font-size: 30px;
+
+    text-decoration: none;
+    color: #9333EA;
+}
+
+.userName {
+    font-family: "Roboto-Regular";
+    font-size: 24px;
+    color: #9333EA;
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url("../../fonts/Roboto-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("../../fonts/Roboto-Bold.ttf") format("truetype");
+    font-style: bold;
+    font-weight: 700;
+}
